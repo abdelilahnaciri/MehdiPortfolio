@@ -5,7 +5,6 @@
     --main-transition: 0.5s;
     --main-padding-top: 100px;
     --main-padding-bottom: 100px;
-    --section-background: #ECECEC;
 }
 /* End Variables */
 /* Start Global Rules */
@@ -57,46 +56,6 @@ ul {
         width: 1170px;
     }
 }
-.main-title {
-    font-size: 30px;
-    text-transform: uppercase;
-    margin: 0 auto 80px;
-    display: block;
-    border: 2px solid #000;
-    padding: 10px 20px;
-    width: fit-content;
-    position: relative;
-    transition: var(--main-transition);
-    z-index: 999;
-}
-.main-title::before,
-.main-title::after {
-    content: "";
-    position: absolute;
-    width: 12px;
-    height: 12px;
-    background-color: var(--main-color);
-    border-radius: 50%;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.main-title::before {
-    left: -30px;
-}
-.main-title::after {
-    right: -30px;
-}
-.main-title:hover::before{
-    animation: left-move 0.5s linear forwards;
-}
-.main-title:hover::after {
-    animation: right-move 0.5s linear forwards;
-}
-.main-title:hover {
-    color: #fff;
-    border-color: #fff;
-    transition-delay: 0.5s;
-}
 /* End Global Rules */
 /* Start Landing */
 .landing {
@@ -141,7 +100,8 @@ ul {
     }
     .landing .content .text h1 {
         margin-bottom: 50px;
-        font-size: 140px;
+        font-size: 100px;
+        width: 900px;
     }
     .landing .content .text p{
        width: 800px;
@@ -180,7 +140,8 @@ ul {
 }
 .landing .text h1 {
     font-size: 80px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    width: 500px;
 }
 .landing .text p {
     font-size: 20px;
@@ -223,6 +184,4 @@ ul {
 .landing .about:nth-of-type(4) p {
     margin-bottom: 5px;
 }
-
-
 /* End Landing */
