@@ -141,7 +141,7 @@ ul {
     }
     .landing .content .text h1 {
         margin-bottom: 50px;
-        font: 250px;
+        font-size: 120px;
     }
     .landing .content .text p{
        width: 800px;
@@ -163,6 +163,14 @@ ul {
     }
     .landing .content {
         z-index: 2;
+    }
+    .landing .content .text h1 {
+        font-size: 60px;
+        margin-bottom: 35px;
+    }
+    .landing .content .text p,
+    .landing .content .about p {
+        font-size: 15px;
     }
 }
 .landing .content  p {
