@@ -163,6 +163,7 @@ ul {
     }
     .landing .content {
         z-index: 2;
+        padding-right: 35px;
     }
     .landing .content .text h1 {
         font-size: 60px;
@@ -170,7 +171,7 @@ ul {
     }
     .landing .content .text p,
     .landing .content .about p {
-        font-size: 15px;
+        max-width: 100%;
     }
 }
 .landing .content  p {
