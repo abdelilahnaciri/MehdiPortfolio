@@ -150,7 +150,8 @@ ul {
 }
 @media (max-width:767px) {
     .landing .image {
-        right: 80%;
+        left: 100%;
+        transform: scaleX(-1);
     }
     .landing::before {
         content: "";
